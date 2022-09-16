@@ -39,25 +39,11 @@ function pup(){
     document.getElementById('power').innerHTML = '';
 }
 /*Projects Azure seeker*/
-totaX = 0
-
 function addFunc(){
-    totaX = totaX + 1
-    if (totaX == 1){
-        document.getElementById('azureCenter').src = 'pics/azuresiem7.png';
-    }
-    else{
-        document.getElementById('azureCenter').src = 'pics/azuresiem5.png';
-    }
+    document.getElementById('azureCenter').src = 'pics/azuresiem7.png';
 }
 function minFunc(){
-    totaX = 0
-    if (totaX == 0){
-        document.getElementById('azureCenter').src = 'pics/azuresiem5.png';
-    }
-    else{
-        document.getElementById('azureCenter').src = 'pics/azuresiem7.png';
-    }
+    document.getElementById('azureCenter').src = 'pics/azuresiem5.png';
 }
 /*
 Tryna keep my mind at bay
