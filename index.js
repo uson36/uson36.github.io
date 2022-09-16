@@ -44,16 +44,16 @@ totaX = 0
 function addFunc(){
     totaX = totaX + 1;
     if (totaX == 3){
-        document.getElementById('azureCenter').src = 'pics/azure-siem7.png';
+        document.getElementById('azureCenter').src = 'pics/azuresiem7.png';
     }
     else if (totaX == 2){
-        document.getElementById('azureCenter').src = 'pics/azure-siem6.png';
+        document.getElementById('azureCenter').src = 'pics/azuresiem6.png';
     }
     else if (totaX == 1){
-        document.getElementById('azureCenter').src = 'pics/azure-siem5.png';
+        document.getElementById('azureCenter').src = 'pics/azuresiem5.png';
     }
     else if (totaX <= 0){
-        document.getElementById('azureCenter').src = 'pics/azure-siem4.png';
+        document.getElementById('azureCenter').src = 'pics/azuresiem4.png';
         totaX = 0;
     }
     else if (totaX >= 4){
@@ -64,16 +64,16 @@ function addFunc(){
 function minFunc(){
     totaX = totaX - 1;
     if (totaX == 3){
-        document.getElementById('azureCenter').src = 'pics/azure-siem7.png';
+        document.getElementById('azureCenter').src = 'pics/azuresiem7.png';
     }
     else if (totaX == 2){
-        document.getElementById('azureCenter').src = 'pics/azure-siem6.png';
+        document.getElementById('azureCenter').src = 'pics/azuresiem6.png';
     }
     else if (totaX == 1){
-        document.getElementById('azureCenter').src = 'pics/azure-siem5.png';
+        document.getElementById('azureCenter').src = 'pics/azuresiem5.png';
     }
     else if (totaX <= 0 ){
-        document.getElementById('azureCenter').src = 'pics/azure-siem4.png';
+        document.getElementById('azureCenter').src = 'pics/azuresiem4.png';
         totaX = 0;
     }
 }
