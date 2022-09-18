@@ -131,6 +131,14 @@ ul li img{
     background-color: rgba(0,0,0,0.9);
     margin-top: 15rem;
 }
+#azureCenter{
+    height: 20rem;
+    width: auto;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-0%);
+    z-index: 0;
+}
 .seekerAzure li{
     display: flex;
     justify-content: center;
