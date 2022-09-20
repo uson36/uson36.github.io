@@ -1,3 +1,4 @@
+window.setTimeout(azureInt,5000);
 function power(){
     document.getElementById('utpMat').src = 'pics/Train Station.png';
     document.getElementById('demo4').innerHTML = '"Arrival"';
@@ -38,12 +39,20 @@ function h44(){
 function pup(){
     document.getElementById('power').innerHTML = '';
 }
-/*Projects Azure seeker*/
-function addFunc(){
-    document.getElementById('azureCenter').src = 'pics/azuresiem7.png';
-}
-function minFunc(){
-    document.getElementById('azureCenter').src = 'pics/azuresiem5.png';
+function azureInt(){
+    document.getElementById('azureCenter').src = 'pics/azuresiem5.PNG';
+    setInterval(azureIntI,5000);
+    function azureIntI(){
+        document.getElementById('azureCenter').src = 'pics/azuresiem6.PNG';
+        setInterval(azureInt2,5000);
+        function azureInt2(){
+            document.getElementById('azureCenter').src = 'pics/azuresiem7.PNG';
+            setInterval(azureInt3,5000);
+            function azureInt3(){
+                document.getElementById('azureCenter').src = 'pics/azureSIEMsolitaryDevelopment.PNG';
+            }
+        }
+    }
 }
 /*
 Tryna keep my mind at bay
