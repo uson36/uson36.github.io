@@ -112,7 +112,7 @@ ul{
 }
 ul li img{
     padding: 1rem;
-    height: 23rem;
+    height: 24rem;
     width: 100%;
 }
 .three{
@@ -131,26 +131,8 @@ ul li img{
     background-color: rgba(0,0,0,0.9);
     margin-top: 15rem;
 }
-#azureCenter{
-    height: 20rem;
-    width: auto;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%,-0%);
-    z-index: 0;
-}
-.seekerAzure li{
-    display: flex;
-    justify-content: center;
-    margin-top: 25rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    font-size: 1.2rem;
-    font-family: 'Roboto Condensed', sans-serif;
-}
-.seekerAzure li:hover{
-    color: yellowgreen;
-    transform: scale(1.1);
+.polaris{
+    color: white;
 }
 .five{
     height: 80rem;
